@@ -1,0 +1,53 @@
+CREATE TABLE food (
+    foodid     VARCHAR(20) NOT NULL,
+    foodname   VARCHAR(50)
+);
+
+
+CREATE TABLE meal (
+    mealid      VARCHAR(20) NOT NULL,
+    mealname    VARCHAR(50),
+    mealdesc    VARCHAR(300),
+    mealprice   INTEGER,
+    mealimage   BLOB
+);
+
+
+CREATE TABLE meal_food (
+    meal_mealid   VARCHAR(20) NOT NULL,
+    food_foodid   VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE order (
+    orderid          VARCHAR(20) NOT NULL,
+    orderdate        DATE,
+    orderstatus      VARCHAR(50),
+    couponcode       VARCHAR(20),
+    student_studid   VARCHAR(20) NOT NULL
+);
+
+
+
+CREATE TABLE ordermeal (
+    order_orderid   VARCHAR(20) NOT NULL,
+    meal_mealid     VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE staff (
+    staffid         VARCHAR(20) NOT NULL,
+    staffname       VARCHAR(50),
+    staffemail      VARCHAR(50),
+    staffpass       VARCHAR(50),
+    staff_staffid   VARCHAR(20)
+);
+
+
+CREATE TABLE student (
+    studid         VARCHAR(20) NOT NULL,
+    studname       VARCHAR(50),
+    studemail      VARCHAR(50),
+    studpassword   VARCHAR(50),
+    studphone      INTEGER,
+    credpoint      INTEGER
+);
+

@@ -61,14 +61,15 @@
         <div class="row align-items-center justify-content-center text-center site-vh-100">
           <div class="col-md-12">
             
-            <div class="bar">
-            <ul class="progressbar">
-                <li class="active">Menu</li>
-                <li class="active">Cart</li>
-                <li>Order Confirmation</li>
-                <li>Payment</li>
-            </ul>
-        </div>
+            <div class="container-fluid">
+            <br /><br />
+                <ul class="list-unstyled multi-steps">
+                  <li>Choose Meal</li>
+                  <li class="is-active">Your Order</li>
+                  <li>Order Confirmation</li>
+                  <li>Payment</li>
+                </ul>
+          </div>
 <div class="shopping-cart">
 
   <div class="column-labels">

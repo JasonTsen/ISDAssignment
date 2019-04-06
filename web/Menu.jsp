@@ -38,15 +38,11 @@
           <span class="oi oi-menu"></span> Menu
         </button>
 
-        <div class="collapse navbar-collapse" id="site-nav">
+       <div class="collapse navbar-collapse" id="site-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="Home.jsp" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="About.jsp" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#section-offer" class="nav-link">Offer</a></li>
-            <li class="nav-item"><a href="Menu.jsp" class="nav-link">Menu</a></li>
-            <li class="nav-item"><a href="#section-news" class="nav-link">News</a></li>
-            <li class="nav-item"><a href="#section-gallery" class="nav-link">Gallery</a></li>
-            <li class="nav-item"><a href="#section-contact" class="nav-link">Contact</a></li>
+            <li class="nav-item active"><a href="#section-home" class="nav-link">Home</a></li>
+            <li class="nav-item active"><a onclick="myFunction()" href="" class="nav-link">Credit point</a></li>
+            <li class="nav-item active"><a href="../login.html" class="nav-link">Student</a></li>
           </ul>
         </div>
       </div>
@@ -62,14 +58,15 @@
         <div class="row align-items-center justify-content-center text-center site-vh-100">
           <div class="col-md-12">
             
-            <div class="container">
-            <ul class="progressbar">
-                <li class="active">Menu</li>
-                <li>Cart</li>
-                <li>Order Confirmation</li>
-                <li>Payment</li>
-            </ul>
-        </div>
+            <div class="container-fluid">
+  <br /><br />
+  <ul class="list-unstyled multi-steps">
+    <li class="is-active">Choose Meal</li>
+    <li>Your Order</li>
+    <li>Order Confirmation</li>
+    <li>Payment</li>
+  </ul>
+</div>
             <div class="col-md-12 text-center">
             <ul class="nav site-tab-nav nav-pills mb-5" id="pills-tab" role="tablist">
               <li class="nav-item site-animate" >

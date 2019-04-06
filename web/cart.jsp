@@ -39,13 +39,11 @@
           <span class="oi oi-menu"></span> Menu
         </button>
 
-        <div class="collapse navbar-collapse" id="site-nav">
+   <div class="collapse navbar-collapse" id="site-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="Home.jsp" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="About.jsp" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="#section-offer" class="nav-link">Offer</a></li>
-            <li class="nav-item"><a href="Menu.jsp" class="nav-link">Menu</a></li>
-        
+            <li class="nav-item active"><a href="#section-home" class="nav-link">Home</a></li>
+            <li class="nav-item active"><a onclick="myFunction()" href="" class="nav-link">Credit point</a></li>
+            <li class="nav-item active"><a href="../login.html" class="nav-link">Student</a></li>
           </ul>
         </div>
       </div>
@@ -146,15 +144,14 @@
         </div>
        </div>
         
-        <script src="js/jquery.min.js"></script>
-    
-
+    <script src="js/jquery.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-
-
-
-   
     <script src="js/main.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>   
+    <script src="js/jquery.animateNumber.min.js"></script>
     </body>
 </html>
